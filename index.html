@@ -3,309 +3,201 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Celvin Agustian | Digital Systems Architect</title>
-
-<meta name="description" content="Celvin Agustian is a Digital Systems Architect specializing in AI integration, automation systems, digital branding, and scalable e-commerce infrastructure.">
-<meta name="keywords" content="AI Consultant Indonesia, Digital Solutions Specialist, WordPress Expert, Shopify Developer, Digital Branding Specialist">
-<meta name="author" content="Celvin Agustian">
-
-<meta property="og:title" content="Celvin Agustian | Digital Systems Architect">
-<meta property="og:description" content="Building scalable digital ecosystems through AI integration, automation architecture, and conversion-driven systems.">
-<meta property="og:type" content="website">
+<title>Celvin Agustian | Digital Solutions Specialist</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-
-:root{
---bg:#05070f;
---card:rgba(255,255,255,0.05);
---border:rgba(255,255,255,0.08);
---primary:#4f9cff;
---text:#f5f7fa;
---muted:#9aa4b2;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #f1f5f9;
+    line-height: 1.6;
 }
 
-html{
-scroll-behavior:smooth;
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
 }
 
-body{
-font-family:'Inter',sans-serif;
-background:radial-gradient(circle at 20% 20%,#111a2e,#05070f 70%);
-color:var(--text);
-line-height:1.6;
-overflow-x:hidden;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
 }
 
-.container{
-width:90%;
-max-width:1200px;
-margin:auto;
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
-/* HEADER */
-
-header{
-padding:140px 0 120px;
-text-align:center;
+.profile-section img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    border: 3px solid #334155;
 }
 
-.profile-img{
-width:170px;
-height:170px;
-border-radius:50%;
-object-fit:cover;
-margin-bottom:30px;
-border:3px solid rgba(255,255,255,0.1);
+h1 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
 
-header h1{
-font-size:58px;
-font-weight:800;
-letter-spacing:-1px;
-background:linear-gradient(90deg,#4f9cff,#7ce3ff);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
+.subtitle {
+    font-size: 20px;
+    color: #94a3b8;
+    margin-bottom: 15px;
 }
 
-header p{
-margin-top:20px;
-font-size:22px;
-color:var(--muted);
-max-width:750px;
-margin-left:auto;
-margin-right:auto;
+.contact {
+    color: #38bdf8;
+    font-weight: 500;
 }
 
-.highlight{
-color:var(--primary);
-font-weight:600;
+.section {
+    margin-bottom: 70px;
 }
 
-.button{
-display:inline-block;
-margin-top:40px;
-padding:16px 38px;
-background:linear-gradient(90deg,#4f9cff,#7ce3ff);
-color:#000;
-font-weight:600;
-text-decoration:none;
-border-radius:40px;
-transition:.3s ease;
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    border-left: 4px solid #38bdf8;
+    padding-left: 15px;
 }
 
-.button:hover{
-transform:translateY(-4px);
-box-shadow:0 10px 35px rgba(79,156,255,.4);
+.card {
+    background: rgba(30, 41, 59, 0.7);
+    padding: 30px;
+    border-radius: 18px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
 }
 
-/* SECTION */
-
-section{
-padding:100px 0;
+ul {
+    list-style: none;
 }
 
-.section-title{
-font-size:36px;
-margin-bottom:60px;
-text-align:center;
-font-weight:700;
+ul li {
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
 }
 
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:40px;
+ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #38bdf8;
 }
 
-.card{
-background:var(--card);
-border:1px solid var(--border);
-padding:40px;
-border-radius:20px;
-backdrop-filter:blur(12px);
-transition:.4s;
+footer {
+    text-align: center;
+    padding: 40px 0;
+    border-top: 1px solid #334155;
+    color: #94a3b8;
+    margin-top: 60px;
 }
 
-.card:hover{
-transform:translateY(-8px);
-box-shadow:0 15px 40px rgba(0,0,0,.5);
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #38bdf8;
+    color: #0f172a;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s ease;
 }
 
-.card h3{
-margin-bottom:15px;
-font-size:20px;
+.button:hover {
+    background: #0ea5e9;
 }
-
-.card p{
-color:var(--muted);
-font-size:15px;
-}
-
-.impact{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:40px;
-text-align:center;
-}
-
-.impact-box h2{
-font-size:42px;
-color:var(--primary);
-}
-
-/* CERTIFICATE IMAGE */
-
-.cert-img{
-width:100%;
-border-radius:15px;
-margin-bottom:15px;
-}
-
-/* FOOTER */
-
-footer{
-padding:60px 0;
-text-align:center;
-border-top:1px solid var(--border);
-color:var(--muted);
-font-size:14px;
-}
-
-/* FADE ANIMATION */
-
-.fade{
-opacity:0;
-transform:translateY(40px);
-animation:fadeUp 1s forwards;
-}
-
-.fade:nth-child(2){animation-delay:.2s;}
-.fade:nth-child(3){animation-delay:.4s;}
-.fade:nth-child(4){animation-delay:.6s;}
-
-@keyframes fadeUp{
-to{
-opacity:1;
-transform:translateY(0);
-}
-}
-
 </style>
 </head>
 
 <body>
 
+<div class="container">
+
 <header>
-<div class="container fade">
+    <div class="profile-section">
+        <!-- FOTO PROFILE (HARUS Profile.jpg P besar) -->
+        <img src="Profile.jpg" alt="Celvin Agustian">
 
-<img src="assets/images/profile.jpg" alt="Celvin Agustian Profile" class="profile-img">
-
-<h1>Celvin Agustian</h1>
-
-<p>
-Building <span class="highlight">Scalable Digital Systems</span> 
-through AI Integration, Automation Architecture, 
-and Conversion-Focused E-Commerce Solutions.
-</p>
-
-<a href="mailto:Celvinagustiano@gmail.com" class="button">Start a Project</a>
-
-</div>
+        <div>
+            <h1>Celvin Agustian</h1>
+            <div class="subtitle">Digital Solutions Specialist & Administrative Expert</div>
+            <div class="contact">
+                Indonesia | Celvinagustiano@gmail.com
+            </div>
+            <a href="mailto:Celvinagustiano@gmail.com" class="button">Contact Me</a>
+        </div>
+    </div>
 </header>
 
-<section>
-<div class="container">
-<h2 class="section-title">Core Capabilities</h2>
-
-<div class="grid">
-
-<div class="card fade">
-<h3>AI & Automation Architecture</h3>
-<p>Designing intelligent workflows, AI agents, and automation systems that reduce operational complexity.</p>
-</div>
-
-<div class="card fade">
-<h3>Digital Branding & Marketing Systems</h3>
-<p>Strategic positioning, campaign frameworks, and performance-driven optimization for modern brands.</p>
-</div>
-
-<div class="card fade">
-<h3>E-Commerce Infrastructure</h3>
-<p>High-converting WordPress & Shopify ecosystems engineered for scalability and sustainable growth.</p>
-</div>
-
-<div class="card fade">
-<h3>Administrative & Data Precision</h3>
-<p>Executive-level documentation, system optimization, and structured digital workflows.</p>
-</div>
-
-</div>
-</div>
+<section class="section">
+    <h2>Professional Summary</h2>
+    <div class="card">
+        Results-driven Digital Solutions Specialist with expertise spanning administrative precision, multimedia production, digital branding, AI integration, and e-commerce systems. Proven ability to streamline operations, enhance digital presence, and implement scalable solutions tailored to modern business demands. Committed to delivering strategic, high-performance outcomes with efficiency, accuracy, and measurable impact.
+    </div>
 </section>
 
-<section>
-<div class="container">
-<h2 class="section-title">Professional Impact</h2>
-
-<div class="impact">
-
-<div class="impact-box fade">
-<h2>3+</h2>
-Years Experience
-</div>
-
-<div class="impact-box fade">
-<h2>Multi-Industry</h2>
-Solutions Delivered
-</div>
-
-<div class="impact-box fade">
-<h2>High-Precision</h2>
-Execution Standard
-</div>
-
-</div>
-</div>
+<section class="section">
+    <h2>Core Expertise</h2>
+    <div class="card">
+        <ul>
+            <li>Administration & Data Precision – High-Accuracy Data Entry, Office Management, Resume & LinkedIn Optimization</li>
+            <li>Video Editing & Multimedia Production – Commercials, UGC, AI Video Automation</li>
+            <li>Digital Marketing & Branding – Strategy, Automation, Paid & Organic Campaigns</li>
+            <li>Web & E-Commerce – WordPress, Shopify, Dropshipping & Conversion Optimization</li>
+            <li>AI & Technology Solutions – AI Workflow Integration, AI Agents, Generative Engine Optimization</li>
+            <li>Publishing & Content Development – Book Writing, Editing, Design & Illustration</li>
+        </ul>
+    </div>
 </section>
 
-<section>
-<div class="container">
-<h2 class="section-title">Certifications & Credentials</h2>
+<section class="section">
+    <h2>Professional Experience</h2>
+    <div class="card">
+        <strong>Freelance Digital Consultant & Administrative Specialist</strong><br>
+        Self-Employed | 2022 – Present
+        <ul style="margin-top:15px;">
+            <li>Delivered high-volume administrative and documentation support with consistent accuracy and deadline compliance.</li>
+            <li>Produced high-engagement video content for digital platforms, strengthening client brand positioning.</li>
+            <li>Designed and deployed WordPress & Shopify systems aligned with conversion-driven objectives.</li>
+            <li>Integrated AI tools into client workflows to enhance automation and operational efficiency.</li>
+            <li>Provided strategic personal branding consulting including resume transformation and LinkedIn optimization.</li>
+        </ul>
+    </div>
+</section>
 
-<div class="grid">
-
-<div class="card fade" style="text-align:center;">
-<a href="assets/certificates/certificate1.jpg" target="_blank">
-<img src="assets/certificates/certificate1.jpg" class="cert-img" alt="Certification 1">
-</a>
-<h3>Professional Certification</h3>
-<p>Digital Strategy & Advanced Systems Integration</p>
-</div>
-
-<div class="card fade" style="text-align:center;">
-<a href="assets/certificates/certificate2.jpg" target="_blank">
-<img src="assets/certificates/certificate2.jpg" class="cert-img" alt="Certification 2">
-</a>
-<h3>AI Systems Certification</h3>
-<p>Automation & AI Workflow Implementation</p>
-</div>
-
-</div>
-</div>
+<section class="section">
+    <h2>Professional Development</h2>
+    <div class="card">
+        Continuous professional advancement in Digital Marketing Strategy, AI Systems Integration, Advanced Video Editing, and E-Commerce Optimization.
+    </div>
 </section>
 
 <footer>
-© 2026 Celvin Agustian — Digital Systems Architect | Indonesia
+    © 2026 Celvin Agustian. All Rights Reserved.
 </footer>
+
+</div>
 
 </body>
 </html>
